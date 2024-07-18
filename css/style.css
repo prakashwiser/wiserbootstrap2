@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(/assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Ralewaybold";
+  src: url(/assets/fonts/Raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Open_Sans";
+  src: url(/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+* {
+  scroll-behavior: smooth;
+}
+:root {
+  --brancolor: rgb(0, 0, 0);
+  --iconscolor: #e03a3c;
+  --textcolor: #848484;
+}
+body {
+  font-size: 18px;
+  font-family: "Raleway";
+}
+.fs-0 {
+  font-size: 35px;
+}
+.mb-7 {
+  margin-bottom: 90px;
+}
+.fw-bolderr {
+  font-family: "Ralewaybold";
+}
+.mt-10 {
+  margin-top: 80px;
+}
+.text-red {
+  color: red;
+  font-size: 40px !important;
+}
+.text-black {
+  color: black !important;
+}
+.navbar a {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.btnsubmit {
+  font-weight: 600;
+  font-size: 16px;
+}
+.btnsubmit:hover {
+  background-color: black !important;
+}
+.parent {
+  background: url(/assets/images/bannerimg.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: top center;
+  height: 100vh;
+}
+.Presento {
+  position: absolute;
+  z-index: 1;
+}
+.parent:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgb(0 0 0 / 65%);
+  position: absolute;
+  z-index: 0;
+}
+.pt-12 {
+  padding-top: 200px;
+}
+.btndanger {
+  width: 13%;
+  border-radius: 5px;
+}
+.btndanger:hover {
+  margin-top: -20px;
+  transition: all 5s;
+}
+.Bettter {
+  font-family: "Ralewaybold";
+}
+.clientimages img {
+  width: 150px;
+  height: 65px;
+  padding: 10px;
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+.clientimages img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+.bgblack {
+  background-color: var(--brancolor);
+  transform: skewY(-3deg);
+}
+.texttransfrom {
+  transform: skewY(3deg);
+}
+.btntransfrom {
+  transform: skewY(0deg);
+}
+.bgblack i {
+  color: var(--iconscolor);
+  font-size: 35px;
+}
+.laboris {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--textcolor);
+  font-family: "Open_Sans";
+}
+.number {
+  font-family: sans-serif;
+}
+.box {
+  padding: 30px;
+  line-height: 35px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.sociolicon {
+  position: absolute;
+  top: -40px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  left: 130px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: var(--iconscolor);
+}
+.iconss {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: #e03a3c;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -28px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.boxshadow {
+  padding: 30px;
+  background-color: #252525;
+  border-radius: 5px;
+}
+.Magnam {
+  font-size: 15px;
+}
+.hiddenitem {
+  overflow: hidden;
+}
+.hover:hover {
+  scale: 1.2;
+  transition: all 0.6s;
+}
+.bg-red {
+  background-color: #e03a3c;
+  color: white;
+}
+.bgblock {
+  background-color: #2b2b2b;
+}
+.cardbtn {
+  border: 1px solid gray;
+  width: 35%;
+  margin: auto;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+}
+.accordion-body {
+  font-size: 18px;
+}
+.accordion-body:hover {
+  color: rgb(188, 34, 34);
+  font-family: "Open_Sans";
+}
+.underline {
+  border-bottom: 3px solid red;
+  width: 50px;
+  margin: auto;
+}
+.bg-black {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.text-darks {
+  font-size: 12px;
+  color: #9a9090;
+  font-weight: 100;
+}
+.boxs {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxss {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 49%;
+}
+.hoverblue:hover {
+  color: blue;
+}
+.hoverpink:hover {
+  color: rgb(217, 108, 126);
+}
+.hoverred:hover {
+  color: red;
+}
+@media (min-width: 992px) {
+  .Bettter {
+    width: 70%;
+    font-size: 48px;
+    line-height: 55px;
+  }
+  .pt-8 {
+    padding-top: 80px;
+  }
+  .pt-10 {
+    padding-top: 100px;
+  }
+  .footrtimg {
+    width: 50% !important;
+  }
+}
+@media (max-width: 992px) {
+  .btndanger {
+    margin: auto;
+    width: 22%;
+  }
+  .Bettter {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .Presento {
+    text-align: center;
+    align-items: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .btndanger {
+    width: 40%;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+  .Corporis {
+    display: flex;
+    justify-content: center;
+  }
+  .boxss {
+    width: 100%;
+  }
+}
