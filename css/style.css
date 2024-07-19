@@ -54,7 +54,7 @@ body {
   background-color: black !important;
 }
 .parent {
-  background: url(/assets/images/bannerimg.jpg) no-repeat;
+  background: url(../assets/images/bannerimg.jpg) no-repeat;
   background-size: cover;
   color: white;
   background-position: top center;
