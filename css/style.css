@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Raleway";
-  src: url(/assets/fonts/Raleway/static/Raleway-Regular.ttf);
+  src: url(../assets/fonts/Raleway/static/Raleway-Regular.ttf);
 }
 @font-face {
   font-family: "Ralewaybold";
-  src: url(/assets/fonts/Raleway/static/Raleway-Bold.ttf);
+  src: url(../assets/fonts/Raleway/static/Raleway-Bold.ttf);
 }
 @font-face {
   font-family: "Open_Sans";
-  src: url(/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  src: url(../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
 }
 * {
   margin: 0;
