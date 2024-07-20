@@ -11,7 +11,9 @@
   src: url(/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
 }
 * {
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --brancolor: rgb(0, 0, 0);
@@ -21,6 +23,48 @@
 body {
   font-size: 18px;
   font-family: "Raleway";
+}
+.animationparent {
+  width: 200px;
+  height: 80px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.boxparents {
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(50deg, #e94cdc, #4c28e4);
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btnanimation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70px;
+  border-radius: 100px;
+  width: 190px;
+  border: none;
+  background-color: white;
+  font-size: 25px;
+}
+
+.cursor {
+  cursor: no-drop;
 }
 .fs-0 {
   font-size: 35px;
