@@ -34,15 +34,15 @@ body {
   overflow: hidden;
   position: relative;
 }
-.boxparents {
+.boxparents  {
   width: 200px;
   height: 40px;
   background: linear-gradient(50deg, #e94cdc, #4c28e4);
-  animation-name: rotate;
-  animation-duration: 2s;
+  animation-name: rotates;
+  animation-duration: 4s;
   animation-timing-function: linear;
 }
-@keyframes rotate {
+@keyframes rotates {
   from {
     transform: rotate(0deg);
   }
