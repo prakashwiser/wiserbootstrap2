@@ -34,14 +34,17 @@ body {
   overflow: hidden;
   position: relative;
 }
-.boxparents  {
+
+.boxparents {
   width: 200px;
   height: 40px;
   background: linear-gradient(50deg, #e94cdc, #4c28e4);
   animation-name: rotates;
   animation-duration: 4s;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;  
 }
+
 @keyframes rotates {
   from {
     transform: rotate(0deg);
@@ -50,6 +53,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 .btnanimation {
   position: absolute;
   top: 50%;
